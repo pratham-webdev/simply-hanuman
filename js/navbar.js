@@ -6,9 +6,9 @@ const navHtml = `<nav class="navbar navbar-expand-lg navbar-light bg-new fixed-t
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-link" href="/">Hanuman Chalisa</a>
-      <a class="nav-link" href="/sankatmochan.html">Sankatmochan</a>
-      <a class="nav-link" href="/">Aarti</a>
+      <a class="nav-link" href="index.html">Hanuman Chalisa</a>
+      <a class="nav-link" href="sankatmochan.html">Sankatmochan</a>
+      <a class="nav-link" href="#">Aarti</a>
     </div>
   </div>
 </div>
