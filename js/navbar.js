@@ -8,7 +8,7 @@ const navHtml = `<nav class="navbar navbar-expand-lg navbar-light bg-new fixed-t
     <div class="navbar-nav">
       <a class="nav-link" href="/">Hanuman Chalisa</a>
       <a class="nav-link" href="/sankatmochan.html">Sankatmochan</a>
-      <a class="nav-link" href="/aarti.html">Aarti</a>
+      <a class="nav-link" href="/">Aarti</a>
     </div>
   </div>
 </div>
