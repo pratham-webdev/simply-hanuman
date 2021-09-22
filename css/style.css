@@ -1,0 +1,61 @@
+:root {
+  --nav-color: #fdfbc7;
+  --bg-color: #f0e8be;
+  /* --side-color: #17171b; */
+  --card-color: #fdfbc7;
+  /* --border-color: #3f3f4b; */
+  --text-primary-color: #85622E;
+  ;
+  /* --text-secondary-color: #727883; */
+}
+
+html,
+body {
+  font-family: "Martel", serif;
+  color: var(--text-primary-color);
+  background-color: var(--bg-color);
+}
+
+.bg-new {
+  background-color: var(--nav-color);
+  box-shadow: 0px 8px 24px rgba(222, 194, 140, 0.38);
+}
+
+.navbar-brand {
+  color: var(--text-primary-color) !important;
+}
+
+.nav-link {
+  color: var(--text-primary-color) !important;
+  margin: 0 0.2em;
+}
+
+.nav-link:hover {
+  background-color: var(--bg-color);
+  border-radius: 2px;
+}
+
+.scripture-card {
+  background: var(--card-color);
+  box-shadow: 0px 8px 24px rgba(222, 194, 140, 0.38);
+  border-radius: 8px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 3em;
+}
+
+@media screen and (max-width:1200px) {
+    .scripture-card{
+        width: 100%;
+        padding: 2em;
+    }
+}
+
+.scripture-card h3{
+    line-height: 2;
+}
+
+.scripture-card h5{
+    line-height: 1.7;
+}
